@@ -1,0 +1,13 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "description": "github-explorer",
+  "main": "index.js",
+  "repository": "git@github.com:LeonardoBrizolla/github-explorer-2022.git",
+  "author": "LeonardoBrizolla <leonardobrizollars@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
