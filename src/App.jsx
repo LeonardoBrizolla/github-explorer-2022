@@ -1,3 +1,5 @@
+import { RepoList } from './components/RepoList';
+
 export const App = () => {
-  return <h1>Leo</h1>;
+  return <RepoList />;
 };
