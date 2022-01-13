@@ -1,3 +1,4 @@
+import './style.scss';
 import { RepoItem } from '../RepoItem';
 
 const repo = {
@@ -12,6 +13,9 @@ export const RepoList = () => {
       <h1>Lista de Repos</h1>
 
       <ul>
+        <RepoItem repo={repo} />
+        <RepoItem repo={repo} />
+        <RepoItem repo={repo} />
         <RepoItem repo={repo} />
       </ul>
     </section>
