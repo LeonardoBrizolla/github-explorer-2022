@@ -2,8 +2,14 @@ import { useState, useEffect } from 'react';
 import './style.scss';
 import { RepoItem } from '../RepoItem';
 
+interface Repo {
+  name: string;
+  description: string;
+  html_url: string;
+}
+
 export const RepoList = () => {
-  const [repos, setRepos] = useState([]);
+  const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
     fetch('https://api.github.com/users/LeonardoBrizolla/repos')
